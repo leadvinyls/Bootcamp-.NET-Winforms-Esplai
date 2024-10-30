@@ -63,11 +63,12 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // 
             // titleLabel
             // 
+            this.titleLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.titleLabel.AutoSize = true;
             this.titleLabel.BackColor = System.Drawing.Color.Transparent;
             this.titleLabel.CausesValidation = false;
             this.titleLabel.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(36, 33);
+            this.titleLabel.Location = new System.Drawing.Point(32, 35);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(36, 17);
             this.titleLabel.TabIndex = 0;
@@ -76,29 +77,33 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // titleTextBox
             // 
             this.titleTextBox.AllowDrop = true;
+            this.titleTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.titleTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.titleTextBox.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleTextBox.Location = new System.Drawing.Point(39, 53);
+            this.titleTextBox.Location = new System.Drawing.Point(35, 56);
             this.titleTextBox.Name = "titleTextBox";
-            this.titleTextBox.Size = new System.Drawing.Size(180, 22);
+            this.titleTextBox.Size = new System.Drawing.Size(188, 22);
             this.titleTextBox.TabIndex = 1;
             // 
             // prodCheckBox
             // 
+            this.prodCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.prodCheckBox.AutoSize = true;
             this.prodCheckBox.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.prodCheckBox.Location = new System.Drawing.Point(344, 115);
+            this.prodCheckBox.Location = new System.Drawing.Point(340, 122);
             this.prodCheckBox.Name = "prodCheckBox";
             this.prodCheckBox.Size = new System.Drawing.Size(59, 21);
             this.prodCheckBox.TabIndex = 5;
+            this.prodCheckBox.Tag = "";
             this.prodCheckBox.Text = "Prod";
             this.prodCheckBox.UseVisualStyleBackColor = true;
             // 
             // locationLabel
             // 
+            this.locationLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.locationLabel.AutoSize = true;
             this.locationLabel.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.locationLabel.Location = new System.Drawing.Point(262, 33);
+            this.locationLabel.Location = new System.Drawing.Point(258, 35);
             this.locationLabel.Name = "locationLabel";
             this.locationLabel.Size = new System.Drawing.Size(61, 17);
             this.locationLabel.TabIndex = 0;
@@ -106,6 +111,7 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // 
             // locationComboBox
             // 
+            this.locationComboBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.locationComboBox.FormattingEnabled = true;
             this.locationComboBox.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.locationComboBox.Items.AddRange(new object[] {
@@ -114,29 +120,33 @@ namespace Bootcamp_.NET_Winforms_Esplai
             "United States",
             "Netherlands",
             "Switzerland"});
-            this.locationComboBox.Location = new System.Drawing.Point(265, 53);
+            this.locationComboBox.Location = new System.Drawing.Point(261, 56);
             this.locationComboBox.Name = "locationComboBox";
-            this.locationComboBox.Size = new System.Drawing.Size(180, 24);
+            this.locationComboBox.Size = new System.Drawing.Size(188, 25);
             this.locationComboBox.TabIndex = 2;
+            this.locationComboBox.Tag = "required";
             // 
             // typeComboBox
             // 
+            this.typeComboBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.typeComboBox.FormattingEnabled = true;
             this.typeComboBox.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.typeComboBox.Items.AddRange(new object[] {
             "TypeA",
             "TypeB",
             "TypeC"});
-            this.typeComboBox.Location = new System.Drawing.Point(39, 115);
+            this.typeComboBox.Location = new System.Drawing.Point(35, 122);
             this.typeComboBox.Name = "typeComboBox";
-            this.typeComboBox.Size = new System.Drawing.Size(121, 24);
+            this.typeComboBox.Size = new System.Drawing.Size(129, 25);
             this.typeComboBox.TabIndex = 3;
+            this.typeComboBox.Tag = "required";
             // 
             // typeLabel
             // 
+            this.typeLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.typeLabel.AutoSize = true;
             this.typeLabel.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.typeLabel.Location = new System.Drawing.Point(36, 94);
+            this.typeLabel.Location = new System.Drawing.Point(32, 100);
             this.typeLabel.Name = "typeLabel";
             this.typeLabel.Size = new System.Drawing.Size(38, 17);
             this.typeLabel.TabIndex = 0;
@@ -144,6 +154,7 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // 
             // criticityComboBox
             // 
+            this.criticityComboBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.criticityComboBox.FormattingEnabled = true;
             this.criticityComboBox.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.criticityComboBox.Items.AddRange(new object[] {
@@ -151,16 +162,18 @@ namespace Bootcamp_.NET_Winforms_Esplai
             "IncidentB",
             "IncidentC",
             "IncidentD"});
-            this.criticityComboBox.Location = new System.Drawing.Point(193, 115);
+            this.criticityComboBox.Location = new System.Drawing.Point(189, 122);
             this.criticityComboBox.Name = "criticityComboBox";
-            this.criticityComboBox.Size = new System.Drawing.Size(121, 24);
+            this.criticityComboBox.Size = new System.Drawing.Size(129, 25);
             this.criticityComboBox.TabIndex = 4;
+            this.criticityComboBox.Tag = "required";
             // 
             // criticityLabel
             // 
+            this.criticityLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.criticityLabel.AutoSize = true;
             this.criticityLabel.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.criticityLabel.Location = new System.Drawing.Point(190, 94);
+            this.criticityLabel.Location = new System.Drawing.Point(186, 100);
             this.criticityLabel.Name = "criticityLabel";
             this.criticityLabel.Size = new System.Drawing.Size(57, 17);
             this.criticityLabel.TabIndex = 0;
@@ -168,9 +181,10 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // 
             // environmentLabel
             // 
+            this.environmentLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.environmentLabel.AutoSize = true;
             this.environmentLabel.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.environmentLabel.Location = new System.Drawing.Point(341, 94);
+            this.environmentLabel.Location = new System.Drawing.Point(337, 100);
             this.environmentLabel.Name = "environmentLabel";
             this.environmentLabel.Size = new System.Drawing.Size(84, 17);
             this.environmentLabel.TabIndex = 0;
@@ -178,39 +192,45 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // 
             // preprodCheckBox
             // 
+            this.preprodCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.preprodCheckBox.AutoSize = true;
-            this.preprodCheckBox.Location = new System.Drawing.Point(344, 142);
+            this.preprodCheckBox.Location = new System.Drawing.Point(340, 151);
             this.preprodCheckBox.Name = "preprodCheckBox";
-            this.preprodCheckBox.Size = new System.Drawing.Size(78, 20);
+            this.preprodCheckBox.Size = new System.Drawing.Size(80, 21);
             this.preprodCheckBox.TabIndex = 6;
+            this.preprodCheckBox.Tag = "";
             this.preprodCheckBox.Text = "Preprod";
             this.preprodCheckBox.UseVisualStyleBackColor = true;
             // 
             // demoCheckBox
             // 
+            this.demoCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.demoCheckBox.AutoSize = true;
-            this.demoCheckBox.Location = new System.Drawing.Point(344, 168);
+            this.demoCheckBox.Location = new System.Drawing.Point(340, 178);
             this.demoCheckBox.Name = "demoCheckBox";
-            this.demoCheckBox.Size = new System.Drawing.Size(66, 20);
+            this.demoCheckBox.Size = new System.Drawing.Size(66, 21);
             this.demoCheckBox.TabIndex = 7;
+            this.demoCheckBox.Tag = "";
             this.demoCheckBox.Text = "Demo";
             this.demoCheckBox.UseVisualStyleBackColor = true;
             // 
             // descriptionTextBox
             // 
+            this.descriptionTextBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.descriptionTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.descriptionTextBox.Location = new System.Drawing.Point(39, 209);
+            this.descriptionTextBox.Location = new System.Drawing.Point(35, 222);
             this.descriptionTextBox.Multiline = true;
             this.descriptionTextBox.Name = "descriptionTextBox";
-            this.descriptionTextBox.Size = new System.Drawing.Size(405, 90);
+            this.descriptionTextBox.Size = new System.Drawing.Size(413, 96);
             this.descriptionTextBox.TabIndex = 8;
             // 
             // descriptionLabel
             // 
+            this.descriptionLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.descriptionLabel.AutoSize = true;
             this.descriptionLabel.BackColor = System.Drawing.Color.Transparent;
             this.descriptionLabel.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.descriptionLabel.Location = new System.Drawing.Point(36, 189);
+            this.descriptionLabel.Location = new System.Drawing.Point(32, 201);
             this.descriptionLabel.Name = "descriptionLabel";
             this.descriptionLabel.Size = new System.Drawing.Size(78, 17);
             this.descriptionLabel.TabIndex = 0;
@@ -218,101 +238,118 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // 
             // startDateDateTimePicker
             // 
+            this.startDateDateTimePicker.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.startDateDateTimePicker.CalendarTitleBackColor = System.Drawing.Color.Black;
             this.startDateDateTimePicker.CalendarTrailingForeColor = System.Drawing.Color.Transparent;
             this.startDateDateTimePicker.CustomFormat = "";
             this.startDateDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.startDateDateTimePicker.Location = new System.Drawing.Point(40, 335);
+            this.startDateDateTimePicker.Location = new System.Drawing.Point(36, 356);
             this.startDateDateTimePicker.Name = "startDateDateTimePicker";
-            this.startDateDateTimePicker.Size = new System.Drawing.Size(180, 22);
+            this.startDateDateTimePicker.Size = new System.Drawing.Size(188, 22);
             this.startDateDateTimePicker.TabIndex = 9;
+            this.startDateDateTimePicker.Tag = "required";
             this.startDateDateTimePicker.Value = new System.DateTime(2024, 10, 30, 10, 35, 49, 0);
             // 
             // startDateLabel
             // 
+            this.startDateLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.startDateLabel.AutoSize = true;
             this.startDateLabel.BackColor = System.Drawing.Color.Transparent;
             this.startDateLabel.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startDateLabel.Location = new System.Drawing.Point(37, 315);
+            this.startDateLabel.Location = new System.Drawing.Point(33, 335);
             this.startDateLabel.Name = "startDateLabel";
             this.startDateLabel.Size = new System.Drawing.Size(72, 17);
             this.startDateLabel.TabIndex = 0;
+            this.startDateLabel.Tag = "required";
             this.startDateLabel.Text = "Start Date";
             // 
             // durationLabel
             // 
+            this.durationLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.durationLabel.AutoSize = true;
             this.durationLabel.BackColor = System.Drawing.Color.Transparent;
             this.durationLabel.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.durationLabel.Location = new System.Drawing.Point(252, 315);
+            this.durationLabel.Location = new System.Drawing.Point(248, 335);
             this.durationLabel.Name = "durationLabel";
             this.durationLabel.Size = new System.Drawing.Size(119, 17);
             this.durationLabel.TabIndex = 0;
+            this.durationLabel.Tag = "required";
             this.durationLabel.Text = "Duration (in Hours)";
             // 
             // durationNumericUpDown
             // 
+            this.durationNumericUpDown.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.durationNumericUpDown.AutoSize = true;
             this.durationNumericUpDown.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.durationNumericUpDown.Location = new System.Drawing.Point(255, 335);
+            this.durationNumericUpDown.Location = new System.Drawing.Point(251, 356);
             this.durationNumericUpDown.Name = "durationNumericUpDown";
-            this.durationNumericUpDown.Size = new System.Drawing.Size(180, 22);
+            this.durationNumericUpDown.Size = new System.Drawing.Size(188, 22);
             this.durationNumericUpDown.TabIndex = 10;
+            this.durationNumericUpDown.Tag = "required";
             // 
             // statusLabel
             // 
+            this.statusLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.statusLabel.AutoSize = true;
-            this.statusLabel.Location = new System.Drawing.Point(37, 371);
+            this.statusLabel.Location = new System.Drawing.Point(33, 394);
             this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(44, 16);
+            this.statusLabel.Size = new System.Drawing.Size(47, 17);
             this.statusLabel.TabIndex = 0;
+            this.statusLabel.Tag = "required";
             this.statusLabel.Text = "Status";
             // 
             // statusComboBox
             // 
+            this.statusComboBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.statusComboBox.FormattingEnabled = true;
             this.statusComboBox.ImeMode = System.Windows.Forms.ImeMode.Off;
             this.statusComboBox.Items.AddRange(new object[] {
             "Planned",
             "Unplanned",
             "In-progress"});
-            this.statusComboBox.Location = new System.Drawing.Point(40, 390);
+            this.statusComboBox.Location = new System.Drawing.Point(36, 414);
             this.statusComboBox.Name = "statusComboBox";
-            this.statusComboBox.Size = new System.Drawing.Size(180, 24);
+            this.statusComboBox.Size = new System.Drawing.Size(188, 25);
             this.statusComboBox.TabIndex = 11;
+            this.statusComboBox.Tag = "required";
             // 
             // completeTrackBar
             // 
+            this.completeTrackBar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.completeTrackBar.LargeChange = 50;
-            this.completeTrackBar.Location = new System.Drawing.Point(255, 390);
+            this.completeTrackBar.Location = new System.Drawing.Point(251, 414);
             this.completeTrackBar.Maximum = 100;
             this.completeTrackBar.Name = "completeTrackBar";
-            this.completeTrackBar.Size = new System.Drawing.Size(180, 56);
+            this.completeTrackBar.Size = new System.Drawing.Size(188, 56);
             this.completeTrackBar.SmallChange = 25;
             this.completeTrackBar.TabIndex = 12;
+            this.completeTrackBar.Tag = "";
             this.completeTrackBar.TickFrequency = 25;
             this.completeTrackBar.TickStyle = System.Windows.Forms.TickStyle.None;
             this.completeTrackBar.ValueChanged += new System.EventHandler(this.completeTrackBar_ValueChanged);
             // 
             // completeLabel
             // 
+            this.completeLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.completeLabel.AutoSize = true;
-            this.completeLabel.Location = new System.Drawing.Point(252, 371);
+            this.completeLabel.Location = new System.Drawing.Point(248, 394);
             this.completeLabel.Name = "completeLabel";
-            this.completeLabel.Size = new System.Drawing.Size(114, 16);
+            this.completeLabel.Size = new System.Drawing.Size(122, 17);
             this.completeLabel.TabIndex = 13;
+            this.completeLabel.Tag = "required";
             this.completeLabel.Text = "Complete Percent";
             // 
             // submitButton
             // 
+            this.submitButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.submitButton.BackColor = System.Drawing.Color.SteelBlue;
             this.submitButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.submitButton.FlatAppearance.BorderSize = 0;
             this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.submitButton.ForeColor = System.Drawing.Color.White;
-            this.submitButton.Location = new System.Drawing.Point(344, 452);
+            this.submitButton.Location = new System.Drawing.Point(340, 480);
             this.submitButton.Name = "submitButton";
-            this.submitButton.Size = new System.Drawing.Size(101, 37);
+            this.submitButton.Size = new System.Drawing.Size(109, 39);
             this.submitButton.TabIndex = 14;
             this.submitButton.Text = "Submit";
             this.submitButton.UseVisualStyleBackColor = false;
@@ -320,13 +357,14 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // 
             // cancelButton
             // 
+            this.cancelButton.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cancelButton.BackColor = System.Drawing.Color.LightSlateGray;
             this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cancelButton.FlatAppearance.BorderSize = 0;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cancelButton.Location = new System.Drawing.Point(237, 452);
+            this.cancelButton.Location = new System.Drawing.Point(225, 480);
             this.cancelButton.Name = "cancelButton";
-            this.cancelButton.Size = new System.Drawing.Size(101, 37);
+            this.cancelButton.Size = new System.Drawing.Size(109, 39);
             this.cancelButton.TabIndex = 15;
             this.cancelButton.Text = "Cancel";
             this.cancelButton.UseVisualStyleBackColor = false;
@@ -334,9 +372,10 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // 
             // sendEmailCheckBox
             // 
+            this.sendEmailCheckBox.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.sendEmailCheckBox.AutoSize = true;
             this.sendEmailCheckBox.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sendEmailCheckBox.Location = new System.Drawing.Point(40, 469);
+            this.sendEmailCheckBox.Location = new System.Drawing.Point(36, 498);
             this.sendEmailCheckBox.Name = "sendEmailCheckBox";
             this.sendEmailCheckBox.Size = new System.Drawing.Size(100, 21);
             this.sendEmailCheckBox.TabIndex = 16;
@@ -345,21 +384,23 @@ namespace Bootcamp_.NET_Winforms_Esplai
             // 
             // percentLabel
             // 
+            this.percentLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.percentLabel.AutoSize = true;
-            this.percentLabel.Location = new System.Drawing.Point(439, 393);
+            this.percentLabel.Location = new System.Drawing.Point(435, 418);
             this.percentLabel.Name = "percentLabel";
-            this.percentLabel.Size = new System.Drawing.Size(0, 16);
+            this.percentLabel.Size = new System.Drawing.Size(0, 17);
             this.percentLabel.TabIndex = 18;
+            this.percentLabel.Tag = "required";
             // 
             // FormBootstrap
             // 
             this.AcceptButton = this.submitButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.cancelButton;
-            this.ClientSize = new System.Drawing.Size(495, 520);
+            this.ClientSize = new System.Drawing.Size(488, 552);
             this.Controls.Add(this.percentLabel);
             this.Controls.Add(this.sendEmailCheckBox);
             this.Controls.Add(this.cancelButton);
@@ -386,6 +427,7 @@ namespace Bootcamp_.NET_Winforms_Esplai
             this.Controls.Add(this.prodCheckBox);
             this.Controls.Add(this.titleTextBox);
             this.Controls.Add(this.titleLabel);
+            this.Font = new System.Drawing.Font("Ubuntu", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaximizeBox = false;
             this.Name = "FormBootstrap";
             this.ShowIcon = false;

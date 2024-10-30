@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bootcamp_.NET_Winforms_Esplai
+namespace HospitalManagement
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Bootcamp_.NET_Winforms_Esplai
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormBootstrap());
+            Application.Run(new Form1());
         }
     }
 }

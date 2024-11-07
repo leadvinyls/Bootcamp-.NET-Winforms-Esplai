@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormBootstrap", "Bootcamp-.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalManagement", "HospitalManagement\HospitalManagement.csproj", "{16E8F733-19D2-4FC5-8153-FC74809BAAA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectDatabase", "ConnectDatabase\ConnectDatabase.csproj", "{31CD436D-BAE3-49F2-90FA-C74B4DFB4A84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{16E8F733-19D2-4FC5-8153-FC74809BAAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16E8F733-19D2-4FC5-8153-FC74809BAAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16E8F733-19D2-4FC5-8153-FC74809BAAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31CD436D-BAE3-49F2-90FA-C74B4DFB4A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CD436D-BAE3-49F2-90FA-C74B4DFB4A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CD436D-BAE3-49F2-90FA-C74B4DFB4A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CD436D-BAE3-49F2-90FA-C74B4DFB4A84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
